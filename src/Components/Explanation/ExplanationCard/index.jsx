@@ -8,7 +8,7 @@ export default function ExplanationCard() {
                 Através deste APP você vai consolidar {"\n"} 4 hábitos de áreas fundamentais:
             </Text>
             <View style={styles.explanationContainer}>
-                <image 
+                <Image 
                     source={require("../../../assets/icons/educationIcon.png")}
                     style={styles.icon}
                 />
@@ -20,7 +20,7 @@ export default function ExplanationCard() {
                 </Text>
             </View>
             <View style={styles.explanationContainer}>
-                <image 
+                <Image 
                     source={require("../../../assets/icons/moneyIcon.png")}
                     style={styles.icon}
                 />
@@ -32,7 +32,7 @@ export default function ExplanationCard() {
                 </Text>
             </View>
             <View style={styles.explanationContainer}>
-                <image 
+                <Image 
                     source={require("../../../assets/icons/bodyIcon.png")}
                     style={styles.icon}
                 />
@@ -44,7 +44,7 @@ export default function ExplanationCard() {
                 </Text>
             </View>
             <View style={styles.explanationContainer}>
-                <image 
+                <Image 
                     source={require("../../../assets/icons/funIcon.png")}
                     style={styles.icon}
                 />
