@@ -1,6 +1,5 @@
 import React from "react";
 import { View, StyleSheet, Image } from "react-native";
-
 import { ProgressBar } from "react-native-paper";
 
 export default function StatusBar() {
@@ -11,7 +10,7 @@ export default function StatusBar() {
           source={require("../../../assets/icons/educationIcon.png")}
           style={styles.icon}
         />
-        <ProgressBar progress={1} color={"#90B7F3"} style={styles.progress} />
+        <ProgressBar progress={0} color={"#90B7F3"} style={styles.progress} />
       </View>
       <View style={styles.statusBarContainer}>
         <Image

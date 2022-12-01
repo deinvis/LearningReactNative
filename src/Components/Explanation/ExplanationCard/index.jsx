@@ -14,7 +14,7 @@ export default function ExplanationCard() {
                 />
                 <Text style={styles.description}>
                     <Text style={styles.mind}>
-                        Mente:
+                        Mente:{" "}
                     </Text>
                     Hábitos para melhorar sua inteligência/sabedoria
                 </Text>
@@ -26,7 +26,7 @@ export default function ExplanationCard() {
                 />
                 <Text style={styles.description}>
                     <Text style={styles.money}>
-                        Financeiro:
+                        Financeiro:{" "}
                     </Text>
                     Hábitos para te ajudar com controle financeiro
                 </Text>
@@ -38,7 +38,7 @@ export default function ExplanationCard() {
                 />
                 <Text style={styles.description}>
                     <Text style={styles.body}>
-                        Corpo:
+                        Corpo:{" "}
                     </Text>
                     Hábitos para te deixar mais saudável e forte
                 </Text>
@@ -50,7 +50,7 @@ export default function ExplanationCard() {
                 />
                 <Text style={styles.description}>
                     <Text style={styles.fun}>
-                        Humor:
+                        Humor:{" "}
                     </Text>
                     Hábitos para controlar estresse e aumentar felicidade
                 </Text>
@@ -66,6 +66,10 @@ const styles = StyleSheet.create(
             width: 350,
             borderRadius: 25,
             padding: 30
+        },
+
+        description: {
+            color: "white"
         },
 
         title: {
