@@ -13,20 +13,23 @@ export default function DefaultButton({ buttonText, handlePress }) {
   );
 }
 
-const styles = StyleSheet.create({
-  button: {
-    width: 200,
-    height: 60,
-    alignItems: "center",
-    justifyContent: "center",
-    borderWidth: 1,
-    borderColor: "#FFFFFF",
-    borderRadius: 10,
-    marginBottom: 20,
-  },
-  buttonText: {
-    color: "#FFFFFF",
-    fontWeight: "bold",
-    fontSize: 20,
-  },
-});
+const styles = StyleSheet.create(
+  {
+    button: {
+      width: 200,
+      height: 60,
+      alignItems: "center",
+      justifyContent: "center",
+      borderWidth: 1,
+      borderColor: "#FFFFFF",
+      borderRadius: 10,
+      marginBottom: 20
+    },
+    
+    buttonText: {
+      color: "#FFFFFF",
+      fontWeight: "bold",
+      fontSize: 20
+    }
+  }
+);

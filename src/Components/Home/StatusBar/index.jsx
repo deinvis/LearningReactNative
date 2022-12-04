@@ -37,27 +37,32 @@ export default function StatusBar() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    padding: 20,
-    backgroundColor: "#151515",
-    borderRadius: 10,
-    marginTop: 10,
-    marginBottom: 10,
-  },
-  statusBarContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginVertical: 6,
-  },
-  progress: {
-    borderRadius: 10,
-    width: 250,
-    height: 8,
-  },
-  icon: {
-    width: 25,
-    height: 25,
-    marginRight: 5,
-  },
-});
+const styles = StyleSheet.create(
+  {
+    container: {
+      padding: 20,
+      backgroundColor: "#151515",
+      borderRadius: 10,
+      marginTop: 10,
+      marginBottom: 10
+    },
+
+    statusBarContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+      marginVertical: 6
+    },
+
+    progress: {
+      borderRadius: 10,
+      width: 250,
+      height: 8
+    },
+
+    icon: {
+      width: 25,
+      height: 25,
+      marginRight: 5
+    },
+  }
+);

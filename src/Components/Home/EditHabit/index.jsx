@@ -33,33 +33,35 @@ export default function EditHabit({habit, frequency, habitArea, checkColor}) {
     );
 } 
 
-const styles = StyleSheet.create({
-    button: {
-        backgroundColor: "#151515",
-        borderRadius: 5,
-        width: 320,
-        marginVertical: 10,
-        paddingVertical: 10,
-        paddingHorizontal: 20,
-        borderWidth: 2,
-        flexDirection: "row",
-        justifyContent: "space-between",
-        alignItems: "center",
-    },
+const styles = StyleSheet.create(
+    {
+        button: {
+            backgroundColor: "#151515",
+            borderRadius: 5,
+            width: 320,
+            marginVertical: 10,
+            paddingVertical: 10,
+            paddingHorizontal: 20,
+            borderWidth: 2,
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignItems: "center"
+        },
 
-    habitTitle: {
-      color: "white",
-      fontWeight: "bold",
-    },
+        habitTitle: {
+        color: "white",
+        fontWeight: "bold"
+        },
 
-    habitFrequency: {
-        color: "white"
-    },
+        habitFrequency: {
+            color: "white"
+        },
 
-    check: {
-        width: 20,
-        height: 20,
-        borderWidth: 1,
-        borderRadius: 10
+        check: {
+            width: 20,
+            height: 20,
+            borderWidth: 1,
+            borderRadius: 10
+        }
     }
-  });
+);
