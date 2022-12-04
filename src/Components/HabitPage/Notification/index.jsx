@@ -1,6 +1,7 @@
 import React from "react";
-import { StyleSheet, Switch } from "react-native";
+import { StyleSheet } from "react-native";
 import { View, Text } from "react-native";
+import { Switch } from "react-native-gesture-handler";
 
 export default function Notification({
   notificationToggle,
@@ -30,16 +31,18 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 20,
+    marginBottom: 20
   },
+
   titleDisabled: {
     color: "#BBBB",
     fontSize: 20,
-    marginRight: 10,
+    marginRight: 10
   },
+  
   title: {
     color: "white",
     fontSize: 20,
-    marginRight: 10,
-  },
+    marginRight: 10
+  }
 });
